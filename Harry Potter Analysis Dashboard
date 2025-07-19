@@ -1,1 +1,14 @@
-This Power BI dashboard provides a comprehensive analysis of the Harry Potter movie franchise, offering insights into box office performance, character demographics, and dialogue distribution.
+* The dashboard provides an overview of the Harry Potter movie series, which includes 8 films, 166 characters, and 234 book chapters.
+
+* The series has earned a total of $7.78 billion in box office revenue, with a profit of $6.42 billion.
+
+* The most profitable movie is Harry Potter and the Deathly Hallows Part 2, followed by Philosopher’s Stone.
+
+* Most characters in the series are humans, and the majority of dialogue is delivered by male characters (75.87%).
+
+* Gryffindor has the highest number of characters, and Harry Potter has the most dialogue lines.
+
+* The longest movie is Chamber of Secrets, while Deathly Hallows: Part 2 earned the highest box office revenue.
+
+* The dashboard also breaks down each movie by budget, profit, and screen time, providing insights into financial performance and character
+involvement across the series.
