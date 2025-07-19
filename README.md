@@ -1,40 +1,143 @@
-# Books Analysis Dashboard 📊
+# Harry Potter Analysis Dashboard 📊
 
-This project analyses the **Book Publication** from 1900-2020," providing a comprehensive overview of book publishing trends over 120 years.
+  This dashboard offers an in-depth analysis of the **Harry Potter movie series**, providing both a high-level summary and granular insights into various aspects, including profits, characters, dialogues, and houses. Here's a detailed overview of the two-part dashboard:
 
 ---
 
-## 📖 Project Background
+### **Part 1: General Overview of the Series**
 
-Overall Statistics:
+#### 📊 **Key Metrics:**
 
-* Text Reviews: 6 million
-* Total Books: 11,127
-* Total Languages: 28
-* Total Publishers: 2,264
-* Average Ratings: 3.93
-* Total Authors: 6,643
+* **Total Movies:** 8
+* **Total Characters:** 166
+* **Total Chapters Covered:** 234
+* **Total Places Mentioned:** 74
+* **Spells Used:** 61
+* **Box Office Revenue:** \$7.78 billion
+* **Overall Profit:** \$6.42 billion
 
-Key Insights from Visualizations:
+---
 
-1. Publishers by Language: * English (Eng) overwhelmingly dominates with approximately 8.9K publishers. * English-US (Eng-US) follows significantly behind with about 1.4K publishers. * Spanish, English-GB (English-Great Britain), and French languages have many fewer publishers, all under 0.5K.
+### **🎬 Profit by Movie**
 
-2. Ratings by Language: * English books have received the vast majority of ratings, approximately 192 million. * English-US books have significantly fewer ratings, around 50 million. * Spanish, English-GB, and French languages show a steep decline in ratings, with Spanish having about 1M, and the others even less.
+The most profitable film is:
 
-3. Authors by Language: * Similar to publishers and ratings, English is the dominant language for authors, with about 8.9K authors. * English-US is second with approximately 1.4K authors. * Spanish, English-GB, and French languages have a much smaller number of authors, all under 0.5K.
+* **Harry Potter and the Deathly Hallows Part 2** with **\$1.09 billion** in profit
+  Followed closely by:
+* **Philosopher’s Stone:** \$0.88 billion
+* **Order of the Phoenix & Chamber of Secrets:** \$0.78 billion each
 
-4. Top Publishers by Language: * Vintage is the leading publisher by language, with 318 entries. * Penguin Books and Penguin Classics follow with 261 and 184 entries, respectively. * Miramax Books and Ballantine Books also feature among the top publishers, with 159 and 145 entries.
+Each film had a relatively consistent profit margin, with all movies exceeding **\$0.67 billion** in profit.
 
-5. Top Publishers by Ratings: * Penguin Books leads in terms of ratings, accumulating around 11M ratings. * Penguin Classics is second with about 5M ratings. * Vintage, Ballantine Books, and Miramax Books follow, each with between 1M and 3M ratings.
+All movies were highly profitable, with "Harry Potter and the Deathly Hallows Part 2" standing out as the top earner in terms of both box office revenue ($1.34 billion) and profit ($1.09 billion).
 
-6. Top Publishers by Text Review: * Penguin Books has the highest number of text reviews, approximately 0.30M. * Vintage is second with about 0.24M text reviews. * Alfred A. Knopf, Little, Brown and Company, and Penguin Classics also show significant text review counts, ranging from 0.11M to 0.14M.
+"Harry Potter and the Philosopher's Stone" and "Harry Potter and the Half-Blood Prince" also performed exceptionally well, both exceeding $1 billion in box office collections.
 
-7. Top Authors by Ratings: * The top 5 authors by ratings are: * J.R.R. Tolkien (18.75%) * J.K. Rowling (16.23%) * Stephenie Meyer (16.23%) * Dan Brown (11.96%) * Nicholas Sparks (35.02%) - Note: The percentage for Nicholas Sparks seems disproportionately high compared to others given the visual representation and might indicate a data anomaly or a large number of books/ratings attributed.
+---
 
-8. Top Authors by Language: * The top authors by language are: * P.G. Wodehouse (21.39%) * Stephen King (21.39%) * Rumiko Takahashi (17.65%) * Orson Scott Card (18.72%) * Agatha Christie (20.86%) - Note: The percentages sum up to over 100%, suggesting these might represent proportions within specific language categories or are not mutually exclusive counts.
+### **💰 Budget vs. Revenue**
 
-9. Top Authors by Text Review: * The top authors by text review are: * J.K. Rowling (27.67%) * Stephenie Meyer (17.14%) * Markus Zusak (16.04%) * Jodi Picoult (18.78%) * Lois Lowry (20.38%) - Note: Similar to "Top Authors by Language," the percentages sum up to over 100%, indicating these are likely proportions within a specific metric (e.g., within top review counts) rather than overall distribution.
+This bar chart shows:
 
-Summary:
+* Budgets ranged from **\$0.13B to \$0.25B**
+* Highest box office: **Deathly Hallows Part 2** (\$1.342B)
+* Lowest budget: **Prisoner of Azkaban** and others (\$0.13B)
 
-The dashboard highlights the overwhelming dominance of English-language publications across all metrics (publishers, ratings, authors, reviews). Penguin Books and Vintage are consistently among the top publishers in terms of quantity and engagement (ratings and reviews). J.K. Rowling, J.R.R. Tolkien, and Stephenie Meyer appear as highly rated and reviewed authors. The "by Language" sections clearly show a significant drop-off in publishing activity for other languages compared to English. There are some minor inconsistencies in the pie chart percentages for "Top Authors by Ratings," "Top Authors by Language," and "Top Authors by Text Review," where the sum of percentages exceeds 100%, suggesting these might represent top individual contributions rather than a full proportional breakdown of all authors.
+---
+
+### **🧬 Characters by Species**
+
+* Majority of characters are **Humans** (dominant portion in yellow)
+* Minor appearances by **Ghosts** and **Centaurs**
+
+Characters by Species: The vast majority of characters are Human (75.87%), followed by Male (24.13%) which seems to be a mislabel and should be Male. It should be followed by Female as a separate category. Other species like Ghost, Centaur, etc., make up smaller proportions.
+
+Male & Female by House: Gryffindor has the highest number of characters overall, with 31, followed by Slytherin (20), Ravenclaw (12), Hufflepuff (8), and Durmstrang Institute (2). The gender breakdown within each house is not explicitly shown but can be inferred from the "Dialogue by Gender" chart.
+
+Top 5 Characters by Dialogues: Harry Potter dominates the dialogue, with 1921 lines, significantly more than Ron Weasley (864), Hermione Granger (848), Albus Dumbledore (474), and Rubeus Hagrid (228).
+
+Character Name by House: This chart visually represents the distribution of characters across the different houses, reinforcing Gryffindor's prominence.
+
+---
+
+### **🏠 Male & Female Characters by House**
+
+* **Gryffindor** dominates with **31 characters**
+* **Slytherin:** 20
+* **Ravenclaw:** 12
+* **Hufflepuff:** 8
+* **Durmstrang Institute:** 2
+
+---
+
+### **🗣️ Dialogue by Gender**
+
+* **Male characters:** 75.87% of total dialogues
+* **Female characters:** 24.13%
+
+Dialogue by Gender: A significant disparity exists, with 75.87% of the dialogue spoken by males and 24.13% by females. This highlights a dominant male voice throughout the film series.
+
+---
+
+### **Part 2: Movie-by-Movie Breakdown**
+
+#### 🎥 **Movie Runtime & Chapters Covered**
+
+* Longest film: **Chamber of Secrets** – 161 minutes
+* Shortest film: **Deathly Hallows Part 2** – 130 minutes
+* **Philosopher’s Stone:** Covered 34 chapters and lasted 152 minutes
+
+"Harry Potter and the Philosopher's Stone" was the first film, released in 2001, running for 152 minutes, covering 34 chapters, and featuring 885 lines of dialogue.
+
+Movie Runtimes: Runtimes vary across the films, with "Harry Potter and the Chamber of Secrets" being the longest at 161 minutes and "Harry Potter and the Deathly Hallows Part 2" being the shortest at 130 minutes.
+
+Top 3 Box Office Collections: This section visually reinforces "Harry Potter and the Deathly Hallows Part 2" as the leader, followed by "Harry Potter and the Philosopher's Stone."
+
+Profit Margins: The dashboard also presents profit margins for each movie, demonstrating healthy profitability across the board, with "Harry Potter and the Prisoner of Azkaban" having a 10.38% margin and "Harry Potter and the Deathly Hallows Part 2" having a 17.00% margin.
+
+---
+
+### **💸 Top 3 Box Office Performers**
+
+1. **Deathly Hallows Part 2** – \$1.342B
+2. **Philosopher’s Stone** – \$1.002B
+3. **Chamber of Secrets** – \$976.9M
+
+---
+
+### **📈 Profit Margins**
+
+* Best margin: **Prisoner of Azkaban** – 13.65%
+* Followed by **Philosopher’s Stone** – 13.08%
+* Most films had margins between **11%–13%**
+
+---
+
+### **🧙 Character Dialogues**
+
+**Top 5 Characters by Dialogue Count:**
+
+1. **Harry Potter** – 1921 lines
+2. **Ron Weasley** – 864
+3. **Hermione Granger** – 848
+4. **Albus Dumbledore** – 474
+5. **Rubeus Hagrid** – 228
+
+---
+
+### **🎓 Characters by House**
+
+* Most characters with dialogue are from **Gryffindor**
+* Other houses like **Slytherin, Ravenclaw, Hufflepuff**, and **Durmstrang** are present but with fewer dialogues
+
+---
+
+### 🔍 **Conclusion**
+
+This comprehensive dashboard gives a rich visual and statistical summary of the Harry Potter series, showcasing not just financial success but also the character dynamics, screen representation, and story coverage. It effectively illustrates:
+
+* Box office and profitability trends.
+* Gender disparity in dialogues.
+* Character distribution by species and houses.
+* Individual movie metrics and rankings.
+
